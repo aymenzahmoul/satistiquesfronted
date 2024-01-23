@@ -1,0 +1,30 @@
+.B_recherche {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #636363;
+    color: #797979;
+    background-color: #fff;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  }
+  
+  .B_recherche:active {
+    border-color: #5d5d5e;
+    background-color: #747474;
+    color: #fff;
+
+  }
+  
+
+  @media only screen and (min-width:1367px) {
+   
+  .B_recherche:hover {
+    background-color: #656666;
+    color: #fff;
+  }}

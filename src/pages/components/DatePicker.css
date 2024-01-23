@@ -1,0 +1,27 @@
+.date-picker-container {
+    margin: 20px;
+  }
+  
+  .date-picker-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+  }
+  
+  .date-picker-input {
+    width: 100%;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  select:focus {
+    border-color: #ffffff;
+  }
+  

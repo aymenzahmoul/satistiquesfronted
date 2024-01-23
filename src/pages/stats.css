@@ -1,0 +1,66 @@
+/* Use a media query to target mobile screens */
+@media (max-width: 768px) {
+
+    /* Overall container */
+    .card-stats {
+      padding: 1rem; /* Adjust padding as needed */
+    }
+  
+    /* Flex container for label and button */
+    .flex {
+      flex-direction: column; /* Stack elements vertically */
+      align-items: center; /* Center items horizontally */
+    }
+  
+    /* Label */
+    label {
+      margin-bottom: 0.5rem; /* Add spacing below label */
+    }
+  
+    /* Button */
+    .field button {
+      width: 100%; /* Ensure full width on mobile */
+      margin-bottom: 1rem; /* Add spacing below button */
+    }
+  
+    /* Dialog */
+    .Dialog {
+      width: 90%; /* Adjust width as needed */
+      max-width: none; /* Remove unnecessary max-width */
+      margin: 0 auto; /* Center the dialog horizontally */
+    }
+  
+    /* DateRange component */
+    .DateRange {
+      /* Apply mobile-specific styles if needed */
+    }
+  
+    /* Apply button */
+    .slack {
+      margin-top: 1rem; /* Add spacing above button */
+    }
+  }
+  @media (max-width: 480px) {
+    .ant-calendar-range {
+        width: 320px;
+    }
+    .ant-calendar-range-part {
+        width: 100%;
+    }
+    /* Media query for mobile devices */
+@media only screen and (max-width: 767px) {
+    .ui-dialog.ui-widget.ui-widget-content.ui-corner-all.ui-shadow.ui-hidden-container {
+      /* Adjust width for mobile */
+      max-width: 80%;
+      width: 80%;
+    }
+  }
+  
+}
+
+.mon-calendrier {
+  color: red;
+  height: 60px;
+  font-size: 30px;
+  margin: 20px;
+}
